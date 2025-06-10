@@ -1,4 +1,11 @@
 
+:root {
+    --main-color: gray;
+    --font-color: #3A6EA5;
+    --font-style: 'Franklin Gothic Medium';
+
+}
+
 body {
     background-color:#C9CED6;  
     margin: 0 auto;
@@ -17,14 +24,14 @@ header {
 h1 {
     padding: 20px;
     border-radius: 8px;
-    color: #3A6EA5;
+    color: var(--font-color);
     font-weight: 900;
     text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--font-style);
 }
 
 .intro {
-   color: #3A6EA5;
+   color: var(--font-color);
    margin-top: 7.5%;
    text-align: center;
    font-weight: 700;
@@ -37,9 +44,9 @@ h1 {
 h2{
     font-size: 40px;
     padding: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-style);
     text-decoration: underline;
-    color: #3A6EA5;
+    color: var(--font-color);
     text-align: center;
 }
 
@@ -54,20 +61,20 @@ h2{
 .flex-item:first-child {
     background-color: #6C7A89;
     padding: 70px 40px;
-    box-shadow: 7.5px 7.5px 10px gray;
+    box-shadow: 7.5px 7.5px 10px var(--main-color);
  }
 
 .flex-item:nth-child(2) {
     background-color: #9fbddd;
     padding: 25px 50px;
-    box-shadow: 7.5px 7.5px 10px gray;
+    box-shadow: 7.5px 7.5px 10px var(--main-color);
  }
 
 .flex-item:nth-child(3) {
     background-color: #2f3f50;
     padding: 5px;
     color: #E5E9F0 ;
-    box-shadow: 7.5px 7.5px 10px gray;
+    box-shadow: 7.5px 7.5px 10px var(--main-color);
  }
 
 
@@ -81,11 +88,11 @@ h2{
 }
 
 .grid-item {
-    background-color: #6C7A89 ;
+    background-color: #6C7A89;
     padding: 30px;
     border-radius: 10px;
     color: #E5E9F0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-style);
 }
 
 .positioning-section {
