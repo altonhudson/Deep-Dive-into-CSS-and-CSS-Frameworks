@@ -1,0 +1,119 @@
+
+body {
+    background-color:#C9CED6;  
+    margin: 0 auto;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1F2A44;
+    text-align: center;
+    border: 5px solid #2E2E2E;    
+}
+
+h1 {
+    padding: 20px;
+    border-radius: 8px;
+    color: #3A6EA5;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro {
+   color: #3A6EA5;
+   margin-top: 7.5%;
+   text-align: center;
+   font-weight: 700;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+h2{
+    font-size: 40px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    color: #3A6EA5;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+ }
+.flex-item {
+    border-radius: 10px;
+ }
+
+.flex-item:first-child {
+    background-color: #6C7A89;
+    padding: 70px 40px;
+    box-shadow: 7.5px 7.5px 10px gray;
+ }
+
+.flex-item:nth-child(2) {
+    background-color: #9fbddd;
+    padding: 25px 50px;
+    box-shadow: 7.5px 7.5px 10px gray;
+ }
+
+.flex-item:nth-child(3) {
+    background-color: #2f3f50;
+    padding: 5px;
+    color: #E5E9F0 ;
+    box-shadow: 7.5px 7.5px 10px gray;
+ }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3. autp);
+    gap: 15px;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.grid-item {
+    background-color: #6C7A89 ;
+    padding: 30px;
+    border-radius: 10px;
+    color: #E5E9F0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.positioning-section {
+    margin-bottom: 50px;
+}
+
+.relative-container {
+    position: relative;
+    padding: 20px;
+    border: 2px solid #9fbddd
+}
+
+.absolute-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #9fbddd;
+    padding: 10px 15px;
+    margin-top: 5px;
+    border: 3px solid #2E2E2E;
+    border-radius: 4px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid rgb(39, 58, 104);
+    background-color: #1F2A44;
+    color: #E5E9F0 ;
+}
